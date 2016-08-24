@@ -1,0 +1,10 @@
+language:
+- cpp
+script:
+- mkdir build
+- cd build
+- cmake ..
+- make
+- ./Kata-bingo-cpp
+notifications:
+email: false
